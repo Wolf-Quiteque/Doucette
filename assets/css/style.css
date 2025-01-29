@@ -4064,11 +4064,7 @@ input[type=checkbox] {
 =               06. Footer Css            =
 ===========================================*/
 .reveal-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+  position: static;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .reveal-footer {
